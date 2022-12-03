@@ -1,0 +1,39 @@
+.navigation {
+    color: white;
+    margin: 0px auto;
+}
+
+.navigation__item {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 0 1%;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 10%;
+    background-color: #0053b0;
+}
+
+.navigation__button {
+    background-color: #0053b0;
+    color: #ffffff;
+    border-radius: 10%;
+    font-family: lato;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.navigation__button:hover {
+    color: darkblue;
+    outline: none;
+}
+
+.navigation__link:hover {
+    color: darkblue;
+    outline: none;
+}
