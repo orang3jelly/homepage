@@ -1,0 +1,74 @@
+.section {
+  background-color: #b7c68b;
+  text-align: center;
+  padding: 15px;
+  margin: 10px;
+  overflow-x: auto;
+  border-radius: 15px;
+}
+
+.section__subHeader {
+  padding: 10px;
+  margin: 15px auto;
+  text-align: center;
+  border-radius: 15px;
+  font-weight: 700;
+  color: #222222;
+}
+
+.section__catPhotos {
+  width: 250px;
+  height: 170px;
+  margin: 20px;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  box-shadow: 5px -5px 40px -10px #222222;
+}
+
+.section__delteButton {
+  border: none;
+  outline: none;
+  background-color: #b3a580;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #000000;
+  border-radius: 5px;
+  transition: all ease 0.1s;
+  box-shadow: 0px 5px 0px 0px #ded29e;
+  font-family: "Lato", sans-serif;
+}
+
+.section__delteButton:hover {
+  cursor: pointer;
+}
+
+.section__delteButton:active {
+  transform: translateY(5px);
+  box-shadow: 0px 0px 0px 0px #b3a580;
+}
+
+.section__catList {
+  float: left;
+  margin-left: 35px;
+  list-style: none;
+}
+
+.section__catListItem {
+  padding-left: 10px;
+  margin-top: 5px;
+}
+
+.section__catListPhoto {
+  width: 250px;
+  height: 170px;
+  margin: 20px;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  box-shadow: 5px -5px 40px -10px #222222;
+  float: right;
+}
+
+.js-deltedCatPhotos {
+    display: none;
+}

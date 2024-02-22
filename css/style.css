@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+.body {
+  margin: 0 auto;
+  max-width: 1000px;
+  background-color: #ded29e;
+  line-height: 1.5;
+  font-family: "Lato", sans-serif;
+}
+
+.body--dark{
+    background-color: #685642;
+}
+
+.main {
+    background-color: #F4F0CB;
+    padding: 1px;
+    border-radius: 15px;
+}
