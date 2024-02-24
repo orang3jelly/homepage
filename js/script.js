@@ -3,8 +3,6 @@ const welcome = () => {
 };
 
 let button = document.querySelector(".js-changeButton");
-
-let catPhotos = document.querySelector(".js-catPhotos");
 let delteButton = document.querySelector(".js-delteButton");
 
 const toggleBackground = () => {
@@ -15,9 +13,11 @@ const toggleBackground = () => {
   body.classList.contains("body--dark") ? (themeName.innerText = "jasne") : (themeName.innerText = "ciemne");
 };
 
-delteButton.addEventListener("click", () => {
+const deltePhotos = () => {
+  let catPhotos = document.querySelector(".js-catPhotos");
+
   catPhotos.classList.toggle("js-deltedCatPhotos");
   catPhotos.classList.contains("js-deltedCatPhotos") ? (delteButton.innerText = "Przywróć zdjęcia") : (delteButton.innerText = "Usuń kocie zdjęcia");
-});
+};
 
 welcome();
