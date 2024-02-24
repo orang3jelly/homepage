@@ -1,4 +1,6 @@
-console.log("działa!");
+const welcome = () => {
+  console.log("Cześć!");
+}
 
 let button = document.querySelector(".js-changeButton");
 let body = document.querySelector(".js-body");
@@ -16,3 +18,5 @@ delteButton.addEventListener("click", () => {
   catPhotos.classList.toggle("js-deltedCatPhotos");
   catPhotos.classList.contains("js-deltedCatPhotos") ? delteButton.innerText = "Przywróć zdjęcia" : delteButton.innerText = "Usuń kocie zdjęcia";
 });
+
+welcome();
