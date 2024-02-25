@@ -12,3 +12,5 @@ Hi! On this website you will find several photos of cats and some interesting fa
 ## Technologies used in the project
 - BEM - Block Element Modifier
 - ES6+
+## Link to the page
+https://orang3jelly.github.io/homepage/
